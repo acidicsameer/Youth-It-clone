@@ -1,13 +1,15 @@
 
 
 import React from 'react'
-import { Navbar } from './Navbar'
-import { HeroSection } from './HeroSection'
-import SponserTeam from './SponserTeam'
-import Cards from './Cards'
-import WorkPlan from './WorkPlan'
-import Contact from './Contact'
-import Footer from './Footer'
+import { Navbar } from './components/Navbar'
+import { HeroSection } from './components/HeroSection'
+import SponserTeam from './components/SponserTeam'
+import Cards from './components/Cards'
+import WorkPlan from './components/WorkPlan'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
+import Projects from './components/Projects'
+import Testimonals from './components/Testimonals'
 
 const App = () => {
   return (<>
@@ -40,6 +42,35 @@ const App = () => {
         text="High-performance Android & iOS apps with seamless user experience"
      buttonText="Get Started"
       />
+</div>
+<div className='font-bold text-3xl'>
+ <p> RECENT PROJECTS</p>
+</div>
+<Projects 
+image="/src/assets/images/school.png"
+title="Web Development Bootcamp at koshi St.James College"
+text="The world has already seen waves of technological revolutions, from the dot-com boom of the 1990s to the rise of artificial intelligence and cloud computing in recent years."
+
+/>
+{/* <Projects 
+image="/src/assets/images/mobilecom.png"
+title="Web Development Bootcamp at koshi St.James College"
+text="The world has already seen waves of technological revolutions, from the dot-com boom of the 1990s to the rise of artificial intelligence and cloud computing in recent years."
+
+
+/>
+<Projects 
+image="/src/assets/images/mobilecom2.png"
+title="Web Development Bootcamp at koshi St.James College"
+text="The world has already seen waves of technological revolutions, from the dot-com boom of the 1990s to the rise of artificial intelligence and cloud computing in recent years."
+ */}
+<div className='font-bold text-3xl h-[40px]'>
+  Our Testimonals
+</div>
+<div className='h-[60vh] flex justify-around items-center  bg-[#F6F9FE]'>
+<Testimonals />
+<Testimonals />
+<Testimonals />
 </div>
  <div className='font-bold text-2xl bg-[#F6F9FE] h-[50px]'>How we Work </div>
 <div className='flex flex-wrap gap-[20px]  bg-[#F6F9FE] justify-around h-[400px] '>
@@ -78,6 +109,7 @@ text="hamroyouthit@gmail.com"
 />
 
 </div>
+
 <div>
 <Footer />
 </div>

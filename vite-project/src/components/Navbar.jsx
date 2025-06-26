@@ -3,7 +3,7 @@ import React from 'react'
  export const Navbar = () => {
   return (<>
  <div className='flex h-[70px]  justify-around  align-middle border-[1px] border-skyblue items-center'>
-<div className="w-1/2 h-[70px]  bg-[url('/images/triangle.png')] ">
+<div className="bg-[url('/src/assets/images/triangle.png')] w-1/2 h-[70px]  ">
   <img src="/src/assets/images/navlogo.png" className="h-[60px]" alt="Logo" />
 </div>
 

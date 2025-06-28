@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@tailwindcss/vite": "^4.1.10",
+    "react-browser-router": "^2.1.2",
     "tailwindcss": "^4.1.10"
   }
 }

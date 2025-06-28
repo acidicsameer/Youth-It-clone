@@ -3,7 +3,7 @@ import React from 'react'
 const Contact = ({title,text,logo}) => {
   return (<>
  
-   <div className='flex items-center  flex-wrap gap-1'>
+   <div className='flex items-center  flex-wrap '>
     <div  className='text-3xl'>
     {logo}
    </div>

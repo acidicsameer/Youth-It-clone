@@ -1,6 +1,8 @@
 import React from 'react';
 import Slider from 'react-slick';
-import Testseries from '/src/api/TestimonalData.json';
+// import Testseries from '/src/api/TestimonalData.json';
+import Testseries from '../api/TestimonalData.json';
+
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
@@ -16,7 +18,7 @@ export const TestiCompo = () => {
   };
 
   return (<>
-    <div className='font-bold text-3xl h-[100px] flex items-center'>
+    <div className='font-bold text-3xl min-h-[100px] flex items-center'>
   Our Testimonals
 </div>
 

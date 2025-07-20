@@ -3,6 +3,9 @@ import React from 'react'
 const Footer = () => {
   return (
   <>
+   <div className='mx-6 mb-5 text-gray-400'>
+    <hr />
+   </div>
      <div className='flex justify-around   bg-[#F6F9FE] h-[210px] '>
 <div className='flex flex-col gap-2'> 
     <div><img src="/src/assets/images/logo.png" className='h-[70px]' alt="" /></div>

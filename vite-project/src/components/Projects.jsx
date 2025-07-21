@@ -16,62 +16,67 @@ import developImg from '/src/assets/images/develop.png';
 
    
   };
-  return (<>
+  const testimonials = [
+  {
+    title: "Web Development Bootcamp at Koshi St.James College",
+    description:
+      "The world has already seen waves of technological revolutions... The world has already seen waves of technological revolutions... The world has already seen waves of technological revolutions...",
+    image: schoolImg,
+  },
+  {
+    title: "Web Development Bootcamp at Koshi St.James College",
+    description:
+      "The world has already seen waves of technological revolutions... The world has already seen waves of technological revolutions... The world has already seen waves of technological revolutions...",
+    image: mobilecomImg,
+  },
+   {
+    title: "Web Development Bootcamp at Koshi St.James College",
+    description:
+      "The world has already seen waves of technological revolutions... The world has already seen waves of technological revolutions... The world has already seen waves of technological revolutions...",
+    image: mobilecom2Img,
+  },
+  {
+    title: "Web Development Bootcamp at Koshi St.James College",
+    description:
+      "The world has already seen waves of technological revolutions... The world has already seen waves of technological revolutions... The world has already seen waves of technological revolutions...",
+    image:developImg,
+  },
+];
+
+  return (
+  <>
   
   <div className='font-bold  lg:text-3xl  text-2xl h-[60px]'>
- <p className='ml-5'> RECENT PROJECTS </p>
+ <p className='ml-6 mt-5'> RECENT PROJECTS </p>
 </div>
- <Slider {...settings}>
-<div className='flex-col lg:flex-row lg:justify-center justify-start  lg:items-center items-start min-h-[300px] lg:w-[1356px]  w-full'>
-  <div className='flex flex-col justify-center items-center gap-3 lg:float-left float-start'>
-    <div className='text-[#1D4ED8] lg:text-4xl  font-[17px] lg:w-[600px] w-full min-h-[120px]  lg:text-center  text-left  p-2 '>
-      Web Development Bootcamp at Koshi St.James College
+<Slider {...settings}>
+  {testimonials.map((item, index) => (
+    <div
+      key={index}
+      className="flex-col lg:flex-row lg:justify-center justify-start lg:items-center items-start min-h-[300px] lg:w-[1356px] w-full m-2 p-3 shadow-2xl"
+    >
+      <div className="flex flex-col items-center lg:mt-6  m-0 gap-3 lg:float-left float-start">
+        <div className="text-[#1D4ED8] lg:text-4xl font-bold  text-xl lg:w-[600px]   lg:text-center text-left p-2">
+          {item.title}
+        </div>
+        <div className="lg:text-center text-left lg:w-[644px] w-full min-h-[144px]">
+          {item.description}
+        </div>
+      </div>
+      <div className="lg:float-right float-none lg:w-1/2 w-full p-4 lg:m-0 ml-8">
+        <img
+          src={item.image}
+          className="lg:h-[340px] h-[150px] lg:w-[600px] w-[80%] rounded-2xl"
+          alt="testimonial"
+        />
+      </div>
     </div>
-    <div className='lg:text-center  text-left lg:w-[644px] w-full min-h-[144px]'>
-      The world has already seen waves of technological revolutions... The world has already seen waves of technological revolutions... The world has already seen waves of technological revolutions... The world has already seen waves of technological revolutions... The world has already seen waves of technological revolutions...
-    </div>
-  </div>
-  <div className=' lg:float-right float-none lg:w-1/2 w-full p-4  lg:m-0 ml-8  '>
-  <img src={schoolImg} className=' lg:h-[360px] h-[150px] lg:w-[700px] w-[80%] rounded-2xl ' alt="project" />
-  </div>
-</div>
-   <div className='flex justify-center items-center h-[300px] w-[1356px] '>
-  <div className='flex flex-col justify-center items-center gap-3 float-left'>
-    <div className='text-[#1D4ED8] lg:text-4xl  text-xl w-[600px] h-[120px] text-center  '>
-      Web Development Bootcamp at Koshi St.James College
-    </div>
-    <div className='text-center w-[644px] h-[144px]'>
-      The world has already seen waves of technological revolutions... The world has already seen waves of technological revolutions... The world has already seen waves of technological revolutions... The world has already seen waves of technological revolutions... The world has already seen waves of technological revolutions...
-    </div>
-  </div>
-  <div className='float-right w-1/2 '>
-  <img src={mobilecomImg} className='h-[360px] w-[644px] rounded-2xl ' alt="project" /></div>
-</div><div className='flex justify-center items-center h-[300px] w-[1356px] '>
-  <div className='flex flex-col justify-center items-center gap-3 float-left'>
-    <div className='text-[#1D4ED8] text-4xl w-[600px] h-[120px] text-center  '>
-      Web Development Bootcamp at Koshi St.James College
-    </div>
-    <div className='text-center w-[644px] h-[144px]'>
-      The world has already seen waves of technological revolutions... The world has already seen waves of technological revolutions... The world has already seen waves of technological revolutions... The world has already seen waves of technological revolutions... The world has already seen waves of technological revolutions...
-    </div>
-  </div>
-  <div className='float-right w-1/2 '>
-  <img src={mobilecom2Img} className='h-[360px] w-[700px] rounded-2xl' alt="project" /></div>
-</div><div className='flex justify-center items-center h-[300px] w-[1356px] '>
-  <div className='flex flex-col justify-center items-center gap-3 float-left'>
-    <div className='text-[#1D4ED8] text-4xl w-[600px] h-[120px] text-center  '>
-      Web Development Bootcamp at Koshi St.James College
-    </div>
-    <div className='text-center w-[644px] h-[144px]'>
-      The world has already seen waves of technological revolutions... The world has already seen waves of technological revolutions... The world has already seen waves of technological revolutions... The world has already seen waves of technological revolutions... The world has already seen waves of technological revolutions...
-    </div>
-  </div>
-  <div className='float-right w-1/2 '>
-  <img src={developImg} className='h-[360px] w-[700px] rounded-2xl' alt="project" /></div>
-</div>
-
-
+  ))}
 </Slider>
+
+
+
+
 
 
   </>)

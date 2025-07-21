@@ -19,11 +19,11 @@ import { TestiCompo } from '../components/Testimonals';
 <Cards />
  
 <Projects />
-  <div className='h-[350px] w-[1500px]  '>
+    <div className="max-w-[1500px] mx-auto px-4">
       <TestiCompo />
     </div>
 
- <div className='font-bold text-2xl bg-[#F6F9FE] ml-6 h-[50px]'>How we Work </div>
+ <div className='font-bold text-2xl bg-[#F6F9FE] ml-6 mt-5 h-[50px]'>How we Work </div>
 <div className='flex flex-wrap gap-[20px]   bg-[#F6F9FE] p-5 justify-around min-h-[400px]  '>
   <WorkPlan 
   image="/src/assets/images/plan.png"
@@ -41,7 +41,7 @@ import { TestiCompo } from '../components/Testimonals';
   para="Development is not just about writing code; it's about creating solutions, building experiences, and shaping the future."/>
   
 </div>
-<div className='flex flex-col lg:flex-row gap-y-5  items-center  min-h-[150px] ' >
+<div className='flex flex-col lg:flex-row gap-y-4  items-center  justify-around min-h-[150px] ' >
 <Contact 
 logo={<i class="fa fa-map-marker"></i>}
 title="Find Us"

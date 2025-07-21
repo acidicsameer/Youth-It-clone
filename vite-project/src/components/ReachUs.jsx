@@ -14,31 +14,31 @@ const ReachUs = () => {
     </div>
     </div>
    
-    <div className='  bg-[#F6F9FE] mt-15 border-4 border-black mr-50 ml-10'>
+    <div className='  bg-[#F6F9FE] mt-15 border-4 border-black lg:mr-50 m-1.5 p-2 lg:ml-10'>
 
          <div className='text-center text-3xl font-extrabold  text-blue-800 p-7 '> Reach & Get In Touch With Us!
 
 </div>
 
 
- <div className='flex  w-full  bg-[#F6F9FE]'>
+ <div className='flex-col  flex lg:flex-row  bg-[#F6F9FE] '>
 
  
 
-    <div className='   w-1/2 flex flex-col '> 
-<div className='flex  m-2 p-2  flex-wrap '>
-        <input type="text"  className=' w-[50%] border-b-2 p-2.5 m-3 text-black  border-black' placeholder='First Name'/>
-        <input type="text"   className=' w-[40%] border-b-2 p-2.5 m-3 text-black  border-black' placeholder='Last Name'/>
-        <input type="phone"   className= ' w-1/2 border-b-2 p-2.5 m-3 text-black border-black' placeholder='Phone' />
-        <input type="text"  className=' w-[40%] border-b-2 p-2.5 m-3 text-black border-black' placeholder='Address' />
+    <div className='   lg:w-1/2  w-full lg:flex flex-col'> 
+<div className='flex-col  flex lg:flex-row   m-3 p-4  flex-wrap  '>
+        <input type="text"  className=' lg:w-[50%] w-full border-b-2 p-2.5 m-3 text-black  border-black' placeholder='First Name'/>
+        <input type="text"   className=' lg:w-[40%] w-full border-b-2 p-2.5 m-3 text-black  border-black' placeholder='Last Name'/>
+        <input type="phone"   className= ' lg:w-1/2 w-full  border-b-2 p-2.5 m-3 text-black border-black' placeholder='Phone' />
+        <input type="text"  className=' lg:w-[40%]  w-full border-b-2 p-2.5 m-3 text-black border-black' placeholder='Address' />
         <input type="email" className=' w-full border-b-2 p-2.5 m-3 text-black border-black' placeholder='Email Address'/>
 </div>
   
-    <div className=' m-1 p-2 '>
-         <div className='font-bold'>How We Can Help You?</div> 
+    <div className='m-3 p-4'>
+         <div className='font-bold p-4'>How We Can Help You?</div> 
     
     <div>
-        <div className='border-b-2 border-black p-2 mb-8'>
+        <div className='border-b-2 border-black   p-2  mb-3'>
         <input type="text" className=' w-full opacity-50' value='Describe Your Problem'/>
     </div>
      <button type='button' className='bg-blue-900  mb-3 text-white font-bold text-2xl rounded-4xl h-[60px] p-3'> Send Message</button>
@@ -50,9 +50,9 @@ const ReachUs = () => {
     
    
     
-    <div className=' w-1/2 p-5 flex flex-col gap-y-3'>
+    <div className=' lg:w-1/2 w-full p-5 flex flex-col gap-y-3 '>
         
-        <div className='font-bold text-xl  '>Need Specific Help?</div>
+        <div className='font-bold text-xl text-center  lg:text-start '>Need Specific Help?</div>
 
     <div className='text-xl' >If you need any assistance, we’re available 24/7. Feel free to call us directly using the contact details above or visit our office anytime.</div>
     

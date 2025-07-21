@@ -69,7 +69,7 @@ const MeetOurTeam = () => {
  return (
   <>
     <div className='text-center text-3xl font-bold p-4'>Meet Our Team</div>
-    <ul className='flex justify-center items-center   flex-wrap gap-x-10 gap-y-15 mx-40'>
+    <ul className='flex justify-center items-center   flex-wrap gap-x-10 gap-y-15 lg:mx-40 m-0 '>
       {ImageCard.map((curr) => (
 <li
   key={curr.id}

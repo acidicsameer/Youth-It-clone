@@ -23,7 +23,7 @@ We pride ourselves on our team of passionate and skilled professionals who bring
 
     <div className='mt-6'>  <MeetOurTeam/></div>
 
-<div className='flex flex-wrap gap-[20px]  mt-10 bg-[#F6F9FE] justify-around h-[400px] '>
+<div className='flex flex-wrap gap-[20px]  mt-10 bg-[#F6F9FE] justify-around min-h-[400px] '>
   <WorkPlan 
 
   title="OUR MISSION"
@@ -43,13 +43,16 @@ We pride ourselves on our team of passionate and skilled professionals who bring
 </div>
 
 
-<div className='flex justify-around gap-x-6  '>
+<div className='flex-col flex lg:flex-row lg:justify-around justify-center items-center gap-5   '>
+<div>
 <ContactInfo
 icon={<i class="fa fa-map-marker"></i>}
 location='Location'
 visitus='Visit Us At'
 des='Pargati Chowk, Itahari, Nepal'
 />
+</div>
+<div>
 <ContactInfo
 icon={<i class="fa fa-phone"></i>}
 location='24x7 Service..'
@@ -58,7 +61,8 @@ visitus='Call Us On
 des='+977 9746888890
 
 '
-/>
+/></div>
+<div>
 <ContactInfo
 icon={<i class="fa fa-envelope"></i>}
 location='Drop A Line
@@ -68,19 +72,20 @@ visitus='Mail Address
 des='hamroyouthit@gmail.com
 
 '
-/>
+/></div>
+<div>
 <ContactInfo
 icon={<i class="fa fa-clock-o"></i>}
 location='Office Hours..'
 visitus='Opening Time'
 des='Sun-Fri: 9AM-5PM'
-/>
+/></div>
 </div>
     <div className='mt-[100px]'>
     <ReachUs/>
     </div>
-    
-<div className='flex justify-around h-[150px] ' >
+  
+<div className='flex flex-col lg:flex-row  items-center justify-around min-h-[150px] ' >
 <Contact 
 logo={<i class="fa fa-map-marker"></i>}
 title="Find Us"
@@ -95,9 +100,11 @@ text="9807409596"
 logo={<i class="fa fa-envelope"></i>}
 title="Mail Us"
 text="hamroyouthit@gmail.com"
+
 />
 
 </div>
+
 
 <div>
   

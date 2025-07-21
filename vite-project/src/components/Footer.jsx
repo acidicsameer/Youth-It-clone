@@ -3,11 +3,11 @@ import React from 'react'
 const Footer = () => {
   return (
   <>
-   <div className='mx-6 mb-5 text-gray-400'>
+   <div className='   text-gray-400'>
     <hr />
    </div>
-     <div className='flex justify-around   bg-[#F6F9FE] h-[210px] '>
-<div className='flex flex-col gap-2'> 
+    <div className="flex flex-col justify-around items-center lg:flex-row lg:justify-between bg-[#F6F9FE] min-h-[210px]  lg:p-6 p-1 lg:mx-20 ">
+<div className='flex flex-col gap-4 p-2 '> 
     <div><img src="/src/assets/images/logo.png" className='h-[70px]' alt="" /></div>
     <div className='text-[#1D4ED8] font-bold  '>Follow Us</div>
     <div className='text-3xl flex gap-4'>
@@ -15,11 +15,11 @@ const Footer = () => {
        <div> <i class="fa fa-google text-red-900"></i></div>
         </div>
         </div>
-        <div>
-            <div className='text-[#1D4ED8]  font-bold text-2xl'>
+        <div className=''>
+            <div className='text-[#1D4ED8] font-bold  text-xl lg:text-2xl'>
                 Useful Links
             </div>
-            <div className='flex flex-col gap-1.5'>
+            <div className='flex flex-col gap-1.5 p-2 ml-4'>
 <div><a href="" className='hover:text-[#1D4ED8]'>Home</a></div>
 <div><a href="" className='hover:text-[#1D4ED8]'>About Us</a></div>
 <div><a href="" className='hover:text-[#1D4ED8]'>Services</a></div>
@@ -29,11 +29,11 @@ const Footer = () => {
             </div>
             </div>
             <div className='flex  flex-col gap-2'>
-                <div className='text-[#1D4ED8] font-bold text-2xl '><a href="">Subscribe</a></div>
-                <div>Don't miss any updates. Subscribe now!</div>
+                <div className='text-[#1D4ED8] font-bold  text-center   text-xl lg:text-2xl '><a href="">Subscribe</a></div>
+                <div className='w-full '>Don't miss any updates. Subscribe now!</div>
                <div className="flex ">
-                    <input type="email" placeholder='Enter Your Email'  className='border-2 border-gray h-[30px]  rounded-[5px]'/>
-                <button type='button' className='mt-[20px]'><img src="/src/assets/images/send.png" className='h-[30px] ' alt="" /></button>
+                    <input type="email" placeholder='Enter Your Email'  className='border-2 border-gray h-[30px] w-full    rounded-[10px]'/>
+                <button type='button' className=' ml-1 '><img src="/src/assets/images/send.png" className='h-[30px] ' alt="" /></button>
                </div>
             </div>
         </div>

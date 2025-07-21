@@ -53,7 +53,7 @@ import developImg from '/src/assets/images/develop.png';
   {testimonials.map((item, index) => (
     <div
       key={index}
-      className="flex-col lg:flex-row lg:justify-center justify-start lg:items-center items-start min-h-[300px] lg:w-[1356px] w-full m-2 p-3 shadow-2xl"
+      className="flex-col lg:flex-row lg:justify-center justify-start lg:items-center items-start min-h-[300px] lg:w-[1356px] w-full m-2 p-3 "
     >
       <div className="flex flex-col items-center lg:mt-6  m-0 gap-3 lg:float-left float-start">
         <div className="text-[#1D4ED8] lg:text-4xl font-bold  text-xl lg:w-[600px]   lg:text-center text-left p-2">

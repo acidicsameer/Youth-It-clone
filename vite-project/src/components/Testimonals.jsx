@@ -28,7 +28,7 @@ export const TestiCompo = () => {
 
   return (
     <>
-      <div className="font-bold text-2xl ml-5 min-h-[100px] flex items-center">
+      <div className="font-bold text-2xl ml-5 min-h-[100px] flex items-center ">
         Our Testimonals
       </div>
 
@@ -36,9 +36,9 @@ export const TestiCompo = () => {
         {Testseries.map((curr) => (
           <div
             key={curr.id}
-            className="h-[200px] lg:m-5 m-0.5 w-[350px] shadow-2xl rounded-2xl bg-white ml-5 p-5"
+            className="h-[200px] lg:m-5 w-[290px]  shadow-2xl rounded-2xl  bg-white flex-row   p-5"
           >
-            <div className="flex gap-6 h-[70px] w-[300px] p-2">
+            <div className="flex gap-6 h-[70px]  p-2">
               <img
                 src={curr.image}
                 alt={curr.title}

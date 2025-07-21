@@ -3,8 +3,8 @@ import React from 'react'
 const WhyYouth = () => {
   return (
     <>
-    <div className='h-[180px]  m-10 p-15 bg-[#EFF6FF] flex flex-col gap-10  justify-center rounded-xl '>
-    <div className='text-center font-bold text-2xl  text-blue-600  '>🎓 Why Join Youth IT?
+    <div className='min-h-[180px]  m-10 lg:p-15 bg-[#EFF6FF] flex flex-col gap-10  justify-center rounded-xl '>
+    <div className=' lg:text-center text-left font-bold text-2xl  text-blue-600  '>🎓 Why Join Youth IT?
 </div>
     
     <div className='list-disc flex justify-between flex-wrap'>

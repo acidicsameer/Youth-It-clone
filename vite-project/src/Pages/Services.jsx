@@ -8,15 +8,15 @@ const Services = () => {
   return (
    <>
 <Cards />
- <h1 className=' text-2xl font-bold h-[50px]'> Course Highlight</h1>
-<div className='flex flex-wrap justify-around  gap-6'>
+ <h1 className=' text-2xl font-bold  ml-6 mt-4'> Course Highlight</h1>
+<div className='flex flex-wrap    justify-around   gap-6'>
 <CourseCards /></div>
 <div>
   <WhyYouth/>
 </div>
 
 
-<div className='flex flex-col lg:flex-row  items-center justify-around min-h-[150px] ' >
+<div className='flex flex-col lg:flex-row  gap-y-4 items-center justify-around min-h-[150px] ' >
 <Contact 
 logo={<i class="fa fa-map-marker"></i>}
 title="Find Us"

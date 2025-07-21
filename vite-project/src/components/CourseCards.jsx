@@ -69,10 +69,10 @@ const CourseCards = () => {
    
 CourseArr.map((curr)=>(
 
- <div className='h-[275px] w-[425px] flex flex-wrap shadow-2xl  border-blue-800 rounded-2xl border-l-8 '>
+ <div className='min-h-[275px]  lg:w-[425px] w-full flex flex-wrap shadow-2xl  border-blue-800 rounded-2xl border-l-8  m-3'>
      <div className='  text-center font-bold p-2 text-xl    '>{curr.title}</div>
      
-     <ul  className=' m-auto text-center list-disc list-inside ' >
+     <ul  className='  text-left  list-disc list-inside ml-3 ' >
 
      <li>{ curr.list1}</li>
       <li>{ curr.list2}</li>

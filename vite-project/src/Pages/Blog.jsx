@@ -1,8 +1,9 @@
 import React from 'react'
- import MeetOurTeam from '../components/MeetOurTeam'
+import BlogCompo from '../components/BlogCompo'
+
 const Blog = () => {
   return (
-    <MeetOurTeam/>
+   <BlogCompo />
   )
 }
 

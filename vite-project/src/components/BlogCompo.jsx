@@ -31,33 +31,46 @@ des:"The IT industry is one of the fastest-growing and most dynamic fields in th
         }
     ];
   return (
+
     <>
+    <ul className='flex flex-col lg:flex-row   gap-y-6 bg-[#F6F9FE] m-2 p-2  '>
+
     <ul>
        { BlogCards.map((curr)=>(
         
        
-<li key={curr.id} className='flex bg-[#F6F9FE]    '>
-        <div className='  flex  gap-6 ml-24  p-10 shadow-2xl  h-[304px] w-[65%] rounded-2xl '>
-        <div><img src={curr.img} className='w-[500px] h-[230px] rounded-2xl' alt="" /></div>
-        <div className='w-[424px] flex flex-col gap-3'>
+<div key={curr.id} >
+        <div className='  flex flex-col lg:flex-row  gap-5 lg:ml-24   p-10 shadow-2xl  min-h-[304px] lg:w-[65%] w-full rounded-2xl '>
+        <div><img src={curr.img} className='lg:w-[500px] w-[250px] h-[250px] m-auto rounded-2xl' alt="" /></div>
+        <div className='lg:w-[424px] w-full flex flex-col gap-3'>
 
-            <div className='font-bold text-2xl '>{curr.title}</div>
+            <div className='font-bold lg:text-2xl  text-[18px]'>{curr.title}</div>
             <div className='opacity-80'>{curr.date}</div>
             <div className='h-[48px] overflow-clip'>{curr.des}</div>
             <div className='bg-blue-900 text-white font-bold  rounded-2xl h-[35px] m-1 p-1.5 w-[100px] '>{curr.readme}</div>
         </div></div>
                
-
-        <div className=' w-[431px] h-[150px]  p-6 shadow-2xl rounded-3xl'>
-<div className='flex gap-2 justify-center items-center'>
-  <div> <img className='h-[100px] w-[200px] rounded-3xl' src={curr.img} alt="" /></div>
-  <div className='text-blue-900 font-bold '> <Link>{curr.title}</Link></div>
-</div>
-
-     </div>  
-     </li>
+     </div>
+     
     ))
     }
+    </ul>
+
+     <ul>
+       { BlogCards.map((curr)=>(
+        
+       
+<div key={curr.id} className='flex flex-col lg:flex-row    bg-[#F6F9FE]    '>
+          <div className=' lg:w-[431px]  w-full min-h-[150px]  p-6 shadow-2xl rounded-3xl '>
+ <div className='flex gap-2 justify-center items-center'>
+   <div> <img className='h-[150px] w-[200px] rounded-3xl' src={curr.img} alt="" /></div>
+   <div className='text-blue-900 font-bold w-full '> <Link>{curr.title}</Link></div>
+ </div>
+      </div>  
+     </div>
+    ))
+    }
+    </ul>
     </ul>
     </>
   )

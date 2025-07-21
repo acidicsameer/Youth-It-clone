@@ -26,7 +26,7 @@ const Gallery = () => {
 
 </div>
 
-<div className='flex flex-col lg:flex-row  items-center justify-around min-h-[150px] ' >
+<div className='flex flex-col lg:flex-row  gap-y-4  items-center justify-around min-h-[150px] ' >
 <Contact 
 logo={<i class="fa fa-map-marker"></i>}
 title="Find Us"

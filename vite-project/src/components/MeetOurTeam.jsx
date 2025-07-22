@@ -18,3 +18,30 @@
   { id: 9, title: "Senior Developer", name: "Kushal Ghimire", img: mem1 },
   { id: 10, title: "Trainer", name: "Manish Poudel", img: mem1 },
 ];
+const MeetOurTeam = () => {
+  return (
+    <>
+      <div className='text-center text-3xl font-bold p-4'>Meet Our Team</div>
+      <ul className='flex justify-center items-center flex-wrap gap-x-10 gap-y-15 lg:mx-40 m-0 '>
+        {ImageCard.map((curr) => (
+          <li
+            key={curr.id}
+            className="bg-black text-center text-gray-800 p-6 rounded-2xl shadow-md border hover:shadow-xl transition-transform transform hover:scale-105"
+          >
+            <img
+              src={curr.img}
+              alt={curr.name}
+              className="w-full h-[200px] rounded-full"
+            />
+            <div className="text-xl text-white font-bold">
+              <div>{curr.title}</div>
+              <div className="mt-2 font-semibold text-lg">{curr.name}</div>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </>
+  );
+};
+
+export default MeetOurTeam;

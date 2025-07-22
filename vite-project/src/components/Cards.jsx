@@ -1,34 +1,37 @@
 
+import webdev from '../assets/images/webdev.png';
+import software from '../assets/images/software.png';
+import graphic from '../assets/images/graphic.png';
+import mobileapp from '../assets/images/mobileapp.png';
 
-
-
-
- const ServiceArr = [
+const ServiceArr = [
   {
-    image: "/src/assets/images/webdev.png",
+    image: webdev,
     title: "Web Development",
     text: "We create fast, responsive, and stunning websites tailored to your needs.",
     buttonText: "Get Started",
   },
   {
-    image: "/src/assets/images/software.png",
+    image: software,
     title: "Software Development",
     text: "Custom software solutions to streamline workflows and boost efficiency.",
     buttonText: "Get Started",
   },
   {
-    image: "/src/assets/images/graphic.png",
+    image: graphic,
     title: "Graphic Designing",
     text: "Engaging visuals for branding, marketing, and UI/UX.",
     buttonText: "Get Started",
   },
   {
-    image: "/src/assets/images/mobileapp.png",
+    image: mobileapp,
     title: "Mobile App Development",
     text: "High-performance Android & iOS apps with seamless user experience",
     buttonText: "Get Started",
   },
 ];
+
+
 
 
 const Cards = () => {

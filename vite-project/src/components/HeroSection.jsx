@@ -1,4 +1,5 @@
 import React from 'react'
+import logoyouth from './assets/images/webdev.png'
 
  export const HeroSection = () => {
   return (
@@ -13,7 +14,7 @@ import React from 'react'
    <button className='w-[80px] h-[35px]  text-blue-900 border-2 border-[#1D4ED8] bg-white  rounded-[10px] hover:bg-[#1D4ED8]  hover:text-white '>Contact</button>
 </div></div>
 <div className=''>
- <img src="/src/assets/images/logo.png" className='  lg:h-[400px] h-[200px]  ' alt="logo" />
+ <img src={logoyouth} className='  lg:h-[400px] h-[200px]  ' alt="logo" />
    </div>
    </div>
 

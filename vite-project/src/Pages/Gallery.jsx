@@ -1,27 +1,38 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Contact from '../components/Contact'
-
+import sameer from '../assets/images/mem1.png'
+import mem2 from '../assets/images/b1.jpg'
+import mem3 from '../assets/images/b2.png'
+import mem4 from '../assets/images/b3.png'
+import mem5 from '../assets/images/mem1.jpg'
+import mem6 from '../assets/images/mem6.jpg'
+import mem7 from '../assets/images/mem7.jpg'
+import mem8 from '../assets/images/mem8.jpg'
+import mem9 from '../assets/images/mem9.jpg'
+import mem10 from '../assets/images/mem10.jpg'
+import mem11 from '../assets/images/mem11.jpg'
+import mem12 from '../assets/images/mem12.jpg'
+import mem13 from '../assets/images/mem13.jpg'
 const Gallery = () => {
   return (
    <>
-<h1 className='text-2xl font-bold p-3 ml-2'>Gallery</h1>
-<div className='flex flex-wrap p-10 gap-3 mx-6  '>
-    <img   className='h-[250px] w-[250px]' src="https://api.hamroyouthit.com/media/gallery/IMG_2679_y11HSoB.JPG" alt="" />
-    <img   className='h-[250px] w-[250px]'  src="https://api.hamroyouthit.com/media/gallery/IMG_9127.JPG" alt="" />
-    <img   className='h-[250px] w-[250px]' src="https://api.hamroyouthit.com/media/gallery/IMG_8922.JPG" alt="" />
-    <img   className='h-[250px] w-[250px]' src="https://api.hamroyouthit.com/media/gallery/IMG_8930_hJkcyAn.JPG" alt="" />
-    <img   className='h-[250px] w-[250px]' src="https://api.hamroyouthit.com/media/gallery/IMG_9168.JPG" alt="" />
-    <img   className='h-[250px] w-[250px]' src="https://api.hamroyouthit.com/media/gallery/IMG_9152.JPG" alt="" />
-    <img  className='h-[250px] w-[250px]'  src="https://api.hamroyouthit.com/media/gallery/IMG_0108.JPG" alt="" />
-    <img  className='h-[250px] w-[250px]'  src="https://api.hamroyouthit.com/media/gallery/IMG_2677.JPG" alt="" />
-    <img   className='h-[250px] w-[250px]' src="https://api.hamroyouthit.com/media/gallery/IMG_8930.JPG" alt="" />
-    <img   className='h-[250px] w-[250px]' src="https://api.hamroyouthit.com/media/gallery/IMG_2669.JPG" alt="" />
-    <img   className='h-[250px] w-[250px]' src="https://api.hamroyouthit.com/media/gallery/IMG_9316.JPG" alt="" />
-    <img  className='h-[250px] w-[250px]'  src="https://api.hamroyouthit.com/media/gallery/IMG_2679.JPG" alt="" />
-    <img  className='h-[250px] w-[250px]'  src="https://api.hamroyouthit.com/media/gallery/IMG_2674.JPG" alt="" />
-    <img  className='h-[250px] w-[250px]'  src="https://api.hamroyouthit.com/media/gallery/IMG_2673.JPG" alt="" />
-    <img   className='h-[250px] w-[250px]' src="https://api.hamroyouthit.com/media/gallery/IMG_2671.JPG" alt="" />
+<h1 className='text-2xl font-bold p-3 ml-2 '>Gallery</h1>
+<div className='flex flex-wrap p-10 gap-5   mx-6  '>
+    <img   className='h-[250px] w-[250px]' src={sameer} alt="" />
+    <img   className='h-[250px] w-[250px]'  src={mem2} alt="" />
+    <img   className='h-[250px] w-[250px]' src={mem3} alt="" />
+    <img   className='h-[250px] w-[250px]' src={mem4} alt="" />
+    <img   className='h-[250px] w-[250px]' src={mem5} alt="" />
+    <img   className='h-[250px] w-[250px]' src={mem6} alt="" />
+    <img  className='h-[250px] w-[250px]'  src={mem7} alt="" />
+    <img  className='h-[250px] w-[250px]'  src={mem8} alt="" />
+    <img   className='h-[250px] w-[250px]' src={mem9} alt="" />
+    <img   className='h-[250px] w-[250px]' src={mem10} alt="" />
+    <img   className='h-[250px] w-[250px]' src={mem11} alt="" />
+    <img  className='h-[250px] w-[250px]'  src={mem12} alt="" />
+    <img  className='h-[250px] w-[250px]'  src={mem13} alt="" />
+    
 
 
 </div>

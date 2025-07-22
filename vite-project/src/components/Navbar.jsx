@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import navlogo from '../assets/images/navlogo.png'
 
 export const Navbar = () => {
   return (
@@ -11,7 +12,7 @@ export const Navbar = () => {
           className="  lg:w-[700px] h-[70px] relative"
         />
         <img
-          src="/src/assets/images/navlogo.png"
+          src={navlogo}
           alt="Logo"
           className="h-[70px] absolute left-1 top-1.5"
         />

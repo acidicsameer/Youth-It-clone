@@ -1,5 +1,5 @@
 import React from 'react'
-import logoyouth from './assets/images/webdev.png'
+import logoyouth from '../assets/images/logo.png'
 
  export const HeroSection = () => {
   return (
